@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <!-- Inizio intestazione con logo -->
     <header>
         <img class="logo" src="./img/logo.svg" alt="logo">
     </header>
+    <!-- /fine intestazione con logo -->
+    <!-- Inizio corpo articolo -->
     <article>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
         <h2>
@@ -31,16 +34,16 @@
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dignissimos.</li>
              <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, debitis.</li>
         </ul>
-        <table>
-            <thead>
+        <table style="width: 100%">
+            <thead style="background-color: #20A9E5; color: white;">
                 <tr>
-                    <th>Lorem, ipsum dolor</th>
-                    <th>Lorem, ipsum dolor</th>
-                    <th>Lorem, ipsum dolor.</th>
+                    <th style="width: 25%";>Lorem, ipsum dolor</th>
+                    <th style="width: 25%">Lorem, ipsum dolor</th>
+                    <th style="width: 50%">Lorem, ipsum dolor</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr style="background-color: #B1E5F2;">
                     <td>Lorem, ipsum dolor</td>
                     <td>Lorem, ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam corporis iure excepturi ratione alias sit consectetur. Illo maiores quam accusamus consequuntur, assumenda ducimus architecto, debitis nihil maxime quia magni.</td>
@@ -50,13 +53,30 @@
                     <td>Lorem, ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam corporis iure excepturi ratione alias sit consectetur. Illo maiores quam accusamus consequuntur, assumenda ducimus architecto, debitis nihil maxime quia magni.</td>
                 </tr>
-                <tr>
+                <tr style="background-color: #B1E5F2;">
                     <td>Lorem, ipsum dolor</td>
                     <td>Lorem, ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam corporis iure excepturi ratione alias sit consectetur. Illo maiores quam accusamus consequuntur, assumenda ducimus architecto, debitis nihil maxime quia magni.</td>
                 </tr>
             </tbody>
         </table>
+        <p class="paragrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis accusamus, perspiciatis, quibusdam et ea saepe corrupti corporis esse deleniti voluptatem assumenda repellat ut officiis nostrum dicta quod veniam quasi laboriosam aspernatur incidunt. Necessitatibus odit cupiditate porro accusantium, numquam, <span class="sfondo-giallo">quos dolorem voluptatum consequatur itaque quis deleniti</span> blanditiis nihil nisi enim totam corporis animi nostrum maiores maxime accusamus non. Alias id ipsa repellendus rem dicta</p>
     </article>
+    <!-- /fine corpo articolo -->
+    <footer>
+        <h3 class="testo-grigio">Potrebbero interessarti</h3>
+        <!-- Problema: non sono riuscito a spostare leggermente in basso dal margine superiore il testo, forse ho sbagliato metodo... -->
+        <figure class="immagine1">
+            <span class="testo-bianco-immagine">
+                <strong>Lorem ipsum dolor</strong>
+            </span>
+        </figure>
+        <figure class="immagine2">
+            <span class="testo-bianco-immagine">
+                <strong>Lorem ipsum dolor</strong>
+            </span>
+        </figure>
+        <!-- /fine problematica -->
+    </footer>
 </body>
 </html>
