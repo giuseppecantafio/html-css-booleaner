@@ -1,19 +1,54 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     height: 180px;
     background-color: #4EA0FF;
     background-image: url(/img/pattern.png);
-    background-position: 8% 0%;
+    background-position: 15% 0%;
     position: relative;
-
 }
 .logo{
     height: 70px;
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 10px;
 
+}
+article{
+    margin-left: 10px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.paragrafo1{
+    margin-top: 0px;
+}
+.testo-grigio{
+    color: #858585;
+}
+.testo-azzurro{
+    color: #45B7E9;
+}
+figure{
+    margin-left: 0px;
+    font-size: small;
+}
+.sfondo-giallo{
+    background-color: yellow;
+}
+.lista{
+    list-style-type: disc;
+    margin-top: 30px;
+    margin-left: 1%;
+    padding: 0%;
 }
