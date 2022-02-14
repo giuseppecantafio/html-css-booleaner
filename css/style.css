@@ -6,4 +6,12 @@ header{
     height: 180px;
     background-color: #4EA0FF;
     background-image: url(/img/pattern.png);
+    position: relative;
+}
+.logo{
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
 }
